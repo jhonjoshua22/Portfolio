@@ -10,9 +10,7 @@ body, html {
 .welcome-container {
     position: relative;
     width: 100%;
-    max-width: 1200px;
-    height: 100vh;
-    overflow: hidden;
+    height: 100%;
 }
 
 .welcome-container img {
@@ -34,7 +32,8 @@ body, html {
     bottom: 20%;
     width: 100%;
     text-align: center;
-    color: white;
+    color: black;
     font-size: 3em;
     font-weight: bold;
+    font-family: 'Suse', sans-serif;
 }
