@@ -3,14 +3,14 @@ body, html {
     padding: 0;
     height: 100%;
     width: 100%;
-    overflow: hidden;
     font-family: Arial, sans-serif;
 }
 
 .welcome-container {
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 100vh;
+    overflow: hidden;
 }
 
 .welcome-container img {
@@ -35,5 +35,13 @@ body, html {
     color: white;
     font-size: 9em;
     font-weight: bold;
+    font-family: 'Suse', sans-serif;
+}
+
+.intro-section {
+    padding: 20px;
+    background-color: lightblue;
+    text-align: center;
+    font-size: 1.5em;
     font-family: 'Suse', sans-serif;
 }
