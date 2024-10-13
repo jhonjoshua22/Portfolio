@@ -1,24 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome Page</title>
-    <link rel="stylesheet" href="styles.css">
-    <!-- Link to Google Fonts for Suse font -->
-    <link href="https://fonts.googleapis.com/css2?family=Suse:wght@400;700&display=swap" rel="stylesheet">
+	<head>
+    		<meta charset="UTF-8">
+    		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    		<title>Welcome Page</title>
 </head>
+<style>
+	a:link {
+  		color: green;
+  		background-color: transparent;
+ 		 text-decoration: none;
+}
+	a:visited {
+  		color: pink;
+  		background-color: transparent;
+  		text-decoration: none;
+}
+	a:hover {
+  		color: red;
+  		background-color: transparent;
+  		text-decoration: none;
+}
+	a:active {
+ 		 color: #232323;
+ 		 background-color: transparent;
+ 		 text-decoration: none;
+}
+
+	.grid-container {
+ 		display: grid;
+  		grid-template-columns: 25% 25% 25% 25%;
+		padding-top:2px;
+		padding-bottom:0px;
+}
+	img {
+  		width: 100%;
+}
+	body {
+		background-color:#232323;
+		font-family-courier
+		color: white
+}
+	h1 {
+		margin:0% ;
+		padding:30px ;
+		padding-bottom:1px;
+		color: #232323 ;
+		background-color:rgb(68, 184, 255) ;	
+		font-size:70px ;
+		text-align:center
+}
+	h6 {
+		margin:0% ;
+		padding:30px;
+		padding-top:1px ;
+		color: #232323 ;
+		background-color:rgb(68, 184, 255);	
+		font-size:20px ;
+		text-align:center
+}
+	h3 {
+		padding-top:5px;
+		padding-bottom:5px;
+		color: #232323 ;	
+		font-size:15px ;
+		text-align:center;
+}
+	h2 {
+		padding-top:1px;
+		padding-bottom:1px;
+		color: #232323 ;	
+		text-align:center;
+}
+	p {
+		text-align:center;
+		color:#232323
+}
+</style>
 <body>
+	<h1> WELCOME!</h1>
+	<h6> JHON JOSHUA ABUTAN'S PORTFOLIO</h2>
 
-<div class="welcome-container">
-    <img src="bg.jpg" alt="Background Image">
-    <div class="gradient-overlay"></div>
-    <div class="welcome-text">WELCOME.</div>
-</div>
+	<div class="grid-container">
 
-<div class="intro-section">
-    <p>Hi! My name is Jhon Joshua Abutan. And below are some of my works.</p>
-</div>
+		<div style="background-color:rgb(68, 184, 255);">
+  			<a href="#aboutme"><h3>ABOUT ME</h3></a>
+		</div>
 
+		<div style="background-color:rgb(68, 184, 255);">
+  			<a href="#myworks"><h3>MY WORKS</h3></a>
+		</div>
+
+		<div style="background-color:rgb(68, 184, 255);">
+  			<a href="#achievements"><h3>ACHIEVEMENTS</h3></a>
+		</div>
+
+		<div style="background-color:rgb(68, 184, 255);">
+  			<a href="#contactme"><h3>CONTACT ME</h3></a>
+		</div>
+
+	</div>
+
+
+	<img src="background.jpg" usemap="#background-map"> <br>
+
+	<map name="background-map">
+    		<area shape="circle" coords="975,675,31" target="_blank" alt="Facebook" title="Facebook" href="https://www.facebook.com/joshua.abutan?mibextid=LQQJ4d">
+		<area shape="circle" coords="1075,670,31" target="_blank" alt="Gmail" title="Gmail" href="https://mail.google.com/mail/u/1/?view=cm&fs=1&to=sjosh2503@gmail.com&tf=1
+">
+   		<area  shape="circle" coords="1160,670,31" target="_blank" alt="Instragram" title="Instragram" href="https://www.instagram.com/_jhonjoshua/profilecard/?igsh=MWY0ZHM5YmVueHRlaw==" >
+	</map>
+
+		<div style="background-color:rgb(68, 184, 255); padding:2px">
+  			<h2 id="aboutme" style="font-family:Brush Script MT; font-size:90px">Biography</h2></a>
+			<p style="font-family:Brush Script MT; font-size:50px">I am a hard fucker</p>
+		</div>
+		<div style="background-color:rgb(68, 184, 255); padding:2px">
+  			<h2 id="myworks" style="font-family:Courier New; font-size:90px">MY WORKS</h2></a>
+			<p style="font-family:Courier New; font-size:40px">wala pa nga!</p>
+		</div>
+		<div style="background-color:rgb(68, 184, 255); padding:2px">
+  			<h2 id="achievements" style="font-family:Copperplate; font-size:70px">ACHIEVEMENTS</h2></a>
+			<p  style="font-family:Copperplate; font-size:40px">palamunin<br>______________________</p>
+		</div>
+		<div style="background-color:rgb(68, 184, 255); padding:2px">
+  			<h2 id="contactme" style="font-size:30px">CONTACT ME</h2></a>
+			<p style="font-size:15px"><b>09539378933 || sjosh2503@gmail.com || _jhonjoshua - Instagram || Joshua Abutan - Facebook</b></p>
+		</div>
 </body>
 </html>
