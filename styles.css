@@ -235,7 +235,7 @@ h2 {
 	margin:2vw 3vw;
 	width:4vw; 
 	filter: grayscale(0.4);
-	display:-inline-block;
+	display:inline-block;
 }
 .contacts img:hover {
 	filter: grayscale(0);
