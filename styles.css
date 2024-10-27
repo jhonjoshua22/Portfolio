@@ -60,13 +60,13 @@ div {
 	background-image: linear-gradient(to top, rgba(70, 190, 190, 0.15), rgba(70, 190, 190, 0));
 	text-alignment:left;
 	width:60%;
-	padding:4vw 4vw 4vw 3vw;
+	padding:4vw 4vw 4vw 4vw;
 	margin:10vw 4vw 4vw 0vw;
 	line-height:2vw;
 	border-radius:10vw;
 	border:0.1vw solid white;
 	box-shadow: 0 1px 4030px 0 rgba(59, 70, 200, 0.8);
-	height:30vw;
+	height:27vw;
 }
 .logo img {
 	display:block;
@@ -172,8 +172,6 @@ h3 {
 }
 a:link {
  	text-decoration: none;
-	color:#232323;
-	font-size:0.8vw;
 }
 a:visited {
 	color:#232323;
@@ -191,12 +189,12 @@ a:active {
 }
 h1 {
 	color:white;
-	font-size:3vw ;
+	font-size:2.5vw ;
 	text-align:left;
 }
 h6 {
 	color:white;
-	font-size:2vw ;
+	font-size:1.7vw ;
 	text-align:right;
 }
 h2 {
