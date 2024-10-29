@@ -82,7 +82,7 @@ h6 {
 	float: left;
 	width:20%;
 	height:16vw;
-	margin:9vw 0vw 4vw 10vw;
+	margin:9vw 0vw 4vw 9vw;
 }
 #welcome {
 	float: left;
@@ -120,12 +120,13 @@ h6 {
 @media screen and (orientation: portrait) {
 	.logo {
 	width:80%;
+	height: 40vw;
 	}
 	.logo img {
 	display:block;
-	width:25vw;
-	margin: 12vw 23vw;
-	height: 25vw;
+	width:30vw;
+	margin: 11vw 23vw;
+	height: 30vw;
 	z-index:0;
 	border-radius:100%;
 	border: 0.2vw solid rgb(59, 140, 255);
@@ -133,13 +134,13 @@ h6 {
 	#welcome {
 	width:90%;
 	padding:3.5vw;
-	margin: 16vw 4.5vw 27vw 4.5vw;
+	margin: -5vw 4.5vw 40vw 4.5vw;
 	line-height:2.6vw;
 	z-index: 1;
 	border-radius:10vw;
 	border: 2px solid rgb(59, 140, 255);
 	box-shadow: 0 1px 4030px 0 rgba(59, 70, 200, 0.8);
-	height:37vw;
+	height:40vw;
 	}
 	#welcome h1 {
 	font-size: 5vw;
@@ -150,8 +151,9 @@ h6 {
 	text-align:center;
 	}
 	#welcome h6 {
-	font-size: 2.2vw;
-	text-align:right;
+	font-size: 2.8vw;
+	padding:0vw 4vw;
+	text-align: right;
 	}
 }
 @keyframes logo {
@@ -228,7 +230,7 @@ h6 {
 	padding:5vw 18vw;
 	margin: -3vw 0vw 4vw;
 	padding-right:20%;
-	border-radius:30vw 30vw 3vw 3vw;
+	border-radius:3vw 3vw 3vw 3vw;
 	}
 	.abtme.aboutme {
 	height:65vw;
