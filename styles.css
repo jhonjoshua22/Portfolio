@@ -97,8 +97,8 @@ div {
 	}
 	.logo img {
 	display:block;
-	width:20%;
-	margin: 2.4vw 27vw;
+	width:18%;
+	margin: 2.4vw 28.5vw;
 	height:90%;
 	z-index:0;
 	border-radius:100%;
@@ -127,7 +127,7 @@ div {
 	text-align:center;
 	}
 	#welcome h6 {
-	font-size: 1vw;
+	font-size: 2.2vw;
 	text-align:center;
 	}
 }
@@ -260,7 +260,7 @@ div {
 }
 .feats h2 {
 	font-size:15vw;
-	width:69%;
+	width:66%;
 	float:right;
 	overflow: hidden;
 	text-align:center;
@@ -304,6 +304,8 @@ h1 {
 }
 h6 {
 	color:white;
+	font-size:1.6vw;
+	padding-right:3vw;
 	text-align:right;
 }
 h2 {
@@ -316,7 +318,7 @@ h2 {
 	color:white;
 }
 p {
-	font-size:3vw;
+	font-size:2vw;
 }
 .footer {
   	width: 80%;
