@@ -3,7 +3,8 @@
 	<head>
 		<title>Joshua Abutan/portfolio/web-front-end-developer/</title>
 		<link rel="stylesheet" href="styles.css">
-		  <link rel="icon" type="image/x-icon" href="JA.jpg">
+		<link rel="icon" type="image/x-icon" href="JA.jpg">
+		<script src="myScript.js"></script>
 
 	</head>
 <style>
@@ -36,24 +37,48 @@
 		<div  class="button" style="float:right">
   			<a href="#aboutme"><h3>ABOUT</h3></a>
 		</div>
+		<div  class="button" style="float:right; width: 21%">
+  			<h3 id="date" style="cursor:default; text-align: center; color:white" > 
+				localTime();
+			</h3>
+		</div>
+		<div  class="button" style="float:right; width: 4%">
+  			<button onclick="togglelord()" style="border-radius:50vw; border:0px solid white; cursor:pointer" id="lord">
+				<img src ="light.png">
+			</button>
+			<script> 
+				function togglelord() {
+					if (document.getElementById("lord").style.backgroundColor === 'rgb(40, 40, 60)') {
+					darkmode();
+					}
+					else { lightmode();}
+				}
+			</script>
+		</div>
 	</div>
 	
 	<div class="abtme">
 	<h2 id="aboutme">ABOUT</h2>
-	<div class="abtme mastery">
-		<p style="text-align:center"> MASTERY LEVEL</p>
+	<div class="abtme mastery" id="mastery">
+		<p style="text-align:center">PROFICIENCY</p>
 		<div>
 			<p>HTML <span style="float:right">4.5<small style="opacity:0.5">/5</small></span></p>
 			<p>CSS <span style="float:right">3.75<small style="opacity:0.5">/5</small></span></p>
-			<p>Javascript <span style="float:right">1<small style="opacity:0.5">/5</small></span></p>
+			<p>Javascript <span style="float:right">2<small style="opacity:0.5">/5</small></span></p>
+			<p>React <span style="float:right">0<small style="opacity:0.5">/5</small></span></p>
+			<p>NodeJS <span style="float:right">0<small style="opacity:0.5">/5</small></span></p>
+			<p>Angular <span style="float:right">0<small style="opacity:0.5">/5</small></span></p>
 			<p>Java <span style="float:right">0<small style="opacity:0.5">/5</small></span></p>
 			<p>Python <span style="float:right">0<small style="opacity:0.5">/5</small></span></p>
 			<p>C++ <span style="float:right">1<small style="opacity:0.5">/5</small></span></p>
 			<p>PHP <span style="float:right">0<small style="opacity:0.5">/5</small></span></p>
 			<p>Kotlin <span style="float:right">0<small style="opacity:0.5">/5</small></span></p>
+			<p>Adobe <span style="float:right">0<small style="opacity:0.5">/5</small></span></p>
+			<p>Email campaign <span style="float:right">0<small style="opacity:0.5">/5</small></span></p>
+
 		</div> 
 	</div>
-	<div class="abtme aboutme">
+	<div class="abtme aboutme" id="abtme">
 		<p> <span style="color:grey">01 </span><span style="color:#253ad9">class </span> <span style="color:yellow">Joshua Abutan </span><span style="color:white">{</span></p>
 		<p><span style="color:grey">02 ..//continuous skill development. </p><p><span style="color:grey">03 ..//I think therefore I am.</span></p>
 		<p><span style="color:grey">04 ..</span><span style="color:#253ad9">constructor </span><span style="color:white">() {</span></p>
@@ -78,9 +103,9 @@
   	<h2 id="achievements">ACHIEVEMENTS</h2>
 	</div>
 	
-	<div class="footer" style="background-color:rgba(5, 0, 13, 0.3); border-top: 0.3vw solid rgb(59, 140, 255)">
-	<h2 id="contactme" style="font-size:1vw; margin-bottom:0%; visibility:hidden">CONTACT ME</h2></a>
-	<p>Find me on:</p><br>
+	<div class="footer" style="background-color:rgba(5, 0, 13, 0.3); border-top: 0.3vw solid rgb(59, 140, 255)" id="footer">
+	<h2 id="contactme" style="font-size:1vw; margin-bottom:0%; visibility:hidden">CONTACT ME</h2>
+	<p style="font-size: 1.42vw">Find me on:</p><br>
 	<div class="contacts">
 		<a target="_blank" href="https://www.instagram.com/_jhonjoshua/profilecard/?igsh=MWY0ZHM5YmVueHRlaw%3D%3D"><img src="instagram.png"></a>
 		<a target="_blank" href="https://www.facebook.com/joshua.abutan?mibextid=LQQJ4d"><img src="facebook.png"></a>
@@ -91,7 +116,7 @@
 	</div>
 	</div>
 	
-	<div class="credits">&copy; Made by Joshua Abutan 2024</div>
+	<div class="credits" id="credits">&copy; Made by Joshua Abutan 2024</div>
 
 </body>
 </html>
