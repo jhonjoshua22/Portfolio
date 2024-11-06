@@ -33,7 +33,15 @@ div {
 	display: inline-block;
 	float:left;
 }
-.button img {
+.lordc {
+	width:3.4%;
+	height:2.7vw;
+	padding-top: 0.2vw;
+	top:0;
+	display: inline-block;
+	float:right;
+}
+.lordc img {
 	margin:0vw;
 	padding-top:0.2vw;
 	padding-bottom:0vw;
@@ -49,7 +57,7 @@ h3 {
 }
 .name h3 {
 	color:white;
-	font-size:2.3vw;
+	font-size:2.5vw;
 	text-align:left;
 	padding-left:1vw;"
 }
@@ -65,6 +73,16 @@ h3 {
 	}
 	.btn-group {
 	width:98%;
+	}
+	#dat {
+	display: none;
+	}
+	.lordc {
+	width: 8%;
+	}
+	.lordc img {
+	width:2.2vw; height: 2.2vw;
+
 	}
 	.name {
 	width:40%;
