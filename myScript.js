@@ -23,7 +23,7 @@ function timetype(value) {
 }
 
 function lightmode() {
-	document.body.style.backgroundColor = 'rgb(170, 170, 200)';
+	document.body.style.backgroundColor = 'rgb(210, 210, 220)';
 	const h3 = document.querySelectorAll('h3');
         h3.forEach(element => {element.style.color = 'rgba(0, 0, 0, 0.75)';});
 	document.getElementById("date").style.color = 'black';
