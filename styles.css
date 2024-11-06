@@ -66,10 +66,10 @@ h3 {
 }
 @media screen and (orientation: portrait) {
 	.button {
-	width:12%;
+	width:16%;
 	}
 	.button h3 {
-	font-size:2.7vw;
+	font-size:3.8vw;
 	}
 	.btn-group {
 	width:98%;
@@ -78,17 +78,19 @@ h3 {
 	display: none;
 	}
 	.lordc {
-	width: 8%;
+	width: 9%;
+	padding-top: 1vw;
+
 	}
 	.lordc img {
-	width:2.2vw; height: 2.2vw;
+	width: 4vw; height: 4vw;
 
 	}
 	.name {
-	width:40%;
+	width:20%;
 	}
 	.name h3{
-	font-size: 3.7vw;
+	font-size: 5vw;
 	}
 }
 h1 {
