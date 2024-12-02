@@ -23,6 +23,7 @@ function timetype(value) {
 }
 
 function lightmode() {
+	document.getElementById('samples').style.color = 'black';
 	document.body.style.backgroundColor = 'rgb(210, 210, 220)';
 	const h3 = document.querySelectorAll('h3');
         h3.forEach(element => {element.style.color = 'rgba(0, 0, 0, 0.75)';});
@@ -44,6 +45,7 @@ function lightmode() {
 	document.getElementById("lord").style.backgroundColor = 'rgb(40, 40, 60)';
 }
 function darkmode() {
+	document.getElementById('samples').style.color = 'white';
 	document.body.style.backgroundColor = 'rgba(5, 0, 13, 0.95)';
 	const h3 = document.querySelectorAll('h3');
         h3.forEach(element => {element.style.color = 'rgba(255, 255, 255, 0.6)';});
