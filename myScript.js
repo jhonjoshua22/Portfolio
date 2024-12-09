@@ -32,14 +32,14 @@ function lightmode() {
 	const h2 = document.querySelectorAll('h2');
         h2.forEach(element => {element.style.color = 'black';});
 	h2.forEach(element => {element.style.opacity = '0.4';});
-	var div = document.getElementById("mastery");
-        div.style.backgroundColor = "rgb(20, 20, 30)";
-	var div = document.getElementById("abtme");
-        div.style.backgroundColor = "rgb(20, 20, 30)";
-	var div = document.getElementById("welcome");
-        div.style.backgroundColor = "rgb(20, 20, 30)";
-	var div = document.getElementById("footer");
-        div.style.backgroundColor = "rgb(20, 20, 30)";
+	var mastery = document.getElementById("mastery");
+        mastery.style.backgroundColor = "rgb(20, 20, 30)";
+	var abtme = document.getElementById("abtme");
+        abtme.style.backgroundColor = "rgb(20, 20, 30)";
+	var welcome = document.getElementById("welcome");
+        welcome.style.backgroundColor = "rgb(20, 20, 30)";
+	var footer = document.getElementById("footer");
+        footer.style.backgroundColor = "rgb(20, 20, 30)";
 	document.getElementById("credits").style.color = 'black';
 	document.getElementById("lord").style.backgroundColor = 'rgb(40, 40, 60)';
 }
@@ -53,14 +53,14 @@ function darkmode() {
 	const h2 = document.querySelectorAll('h2');
         h2.forEach(element => {element.style.color = 'white';});
 	h2.forEach(element => {element.style.opacity = '0.05';});
-	var div = document.getElementById("mastery");
-        div.style.backgroundColor = "rgb(20, 20, 30)";
-	var div = document.getElementById("abtme");
-        div.style.backgroundColor = "rgb(20, 20, 30)";
-	var div = document.getElementById("welcome");
-        div.style.backgroundColor = "rgb(20, 20, 30)";
-	var div = document.getElementById("footer");
-        div.style.backgroundColor = "rgb(20, 20, 30)";
+	var mastery = document.getElementById("mastery");
+        mastery.style.backgroundColor = "rgb(20, 20, 30)";
+	var abtme = document.getElementById("abtme");
+        abtme.style.backgroundColor = "rgb(20, 20, 30)";
+	var welcome = document.getElementById("welcome");
+        welcome.style.backgroundColor = "rgb(20, 20, 30)";
+	var footer = document.getElementById("footer");
+        footer.style.backgroundColor = "rgb(20, 20, 30)";
 	document.getElementById("credits").style.color = 'grey';
 	document.getElementById("lord").style.backgroundColor = 'white';
 }
