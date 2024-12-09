@@ -41,6 +41,7 @@ function lightmode() {
 	var footer = document.getElementById("footer");
         footer.style.backgroundColor = "rgb(20, 20, 30)";
 	document.getElementById("credits").style.color = 'black';
+	document.getElementById("samples").style.color = 'black';
 	document.getElementById("lord").style.backgroundColor = 'rgb(40, 40, 60)';
 }
 function darkmode() {
@@ -62,5 +63,6 @@ function darkmode() {
 	var footer = document.getElementById("footer");
         footer.style.backgroundColor = "rgb(20, 20, 30)";
 	document.getElementById("credits").style.color = 'grey';
+	document.getElementById("samples").style.color = 'white';
 	document.getElementById("lord").style.backgroundColor = 'white';
 }
